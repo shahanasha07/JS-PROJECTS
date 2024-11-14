@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="increment.js"></script>
+    <link rel="stylesheet" href="/index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+</head>
+<body>
+    
+
+    <nav>
+        <input type="checkbox" id="chekking">
+        <label for="chekking">menu</label>
+
+        <ul>
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>CALCULATION</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <!-- <button id="result">0 </button> -->
+         <div id="result" class="result">0</div>
+       <div class="innerdiv">
+        <button id="increment" onclick="incrementcount()"><i class='bx bx-plus' style='color:#ffffff'  ></i></button>
+        <button id="decrement" onclick="decrementcount()"><i class='bx bx-minus'></i></button>
+        <button onclick="resetcount()"><i class='bx bx-reset' style='color:#ffffff' ></i></button>
+       </div>
+       
+    </div>
+   
+</body>
+</html>
